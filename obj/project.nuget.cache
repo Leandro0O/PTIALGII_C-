@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+Bnz79ocN7GGvfZsOoDRGz0y3LOVQFGDh+dwFXQQ4GAwwVDrCcsW+lXYfAQl4SoPnerEk4jZgi7kLbIW+oXv/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Leandro\\Desktop\\Cursos\\Senac\\SegundoSemestre\\Terceiro_trimestre\\ProgramacaoII\\PTI\\CodV2\\CodV2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
