@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 class Program {
     public static void Main(string[] args) {
         Console.Clear();
@@ -11,18 +12,17 @@ class Program {
             }
             Console.WriteLine(mDifereca(v));
             Console.WriteLine($"O vetor está na ordem crescente? {oCrescente(v)}");
-        }catch( FormatException e){
+        }catch( FormatException e) {
             Console.WriteLine("Valor invalido, informe um número inteiro.");
         }   
     }
     public static String mDifereca(int[] v) {
-        int max = v.Max();
-        int min = v.Min();
+        int max = v.Max(), min = v.Min();
         return $"A maior diferença possível dentro do vetor é {(max - min)}, entre os valores {max} e {min}";
     }
     public static Boolean oCrescente(int[] v) {
         Boolean res = false;
-        for(int i = 1; i < v.Length;i++){
+        for(int i = 1; i < v.Length;i++) {
             res = v[i] > v[i - 1] ? true : false;
         }
         return res;
